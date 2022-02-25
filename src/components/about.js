@@ -1,29 +1,22 @@
 import { Container } from "./styles/_about.js";
-import { Fun } from "./styles/_about.fun.js";
+import { Fun } from "./styles/_about.card.fun.js";
+import { Technology } from "./styles/_about.card.tech.js";
+import { Services } from "./styles/_about.card.services.js";
+import { Title } from "./styles/_about.title.js";
 
 export const About = () => {
   return (
     <Container>
       <Fun>
-        <h3>About</h3>
-        <div className="emoji-portrait">🧑🏻</div>
-        <div>
-          <ul>
-            <li>
-              based in the Bay Area but spends a great majority of their time
-              traveling internationally.
-            </li>
-            <li>loves adventure sports and cooking.</li>
-            <li>will definitely pet your dog.</li>
-          </ul>
-        </div>
+        <Title>Past Clients</Title>
+        <div style={{ minHeight: "200px" }}></div>
       </Fun>
-      <section>
-        <h1>services</h1>
-      </section>
-      <section>
-        <h1>tech</h1>
-      </section>
+      <Services>
+        <Title>Services</Title>
+      </Services>
+      <Technology>
+        <Title>Expertise</Title>
+      </Technology>
     </Container>
   );
 };

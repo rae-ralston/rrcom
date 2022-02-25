@@ -6,6 +6,7 @@ export const Layout = styled.div`
     "nav landing"
     "nav about"
     "nav portfolio"
+    "nav testimonials"
     "nav contact";
   grid-template-columns: min-content 1fr;
 

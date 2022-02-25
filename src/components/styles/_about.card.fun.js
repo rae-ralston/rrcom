@@ -29,12 +29,4 @@ export const Fun = styled.section`
     padding: 5px;
     text-align: left;
   }
-
-  & h3 {
-    font-family: "Courier New", monospace;
-    padding-top: 10px;
-    grid-column: 1/-1;
-    margin: 0;
-    padding: 0;
-  }
 `;
