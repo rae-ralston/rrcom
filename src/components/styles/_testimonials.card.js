@@ -8,8 +8,9 @@ export const Container = styled.article`
   gap: 15px;
   padding: 5px;
   grid-template-rows: min-content 1fr;
+  width: 700px;
 
-  & div {
+  & img {
     grid-area: emoji;
     display: flex;
     flex-direction: column;

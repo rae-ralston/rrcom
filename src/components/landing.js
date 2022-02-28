@@ -1,6 +1,6 @@
 import { Container } from "./styles/_landing.js";
 import { Image } from "./styles/_landing.splash-img.js";
-import splash from "../splash.jpg";
+import splash from "../images/splash.jpg";
 
 export const Landing = () => {
   return (
