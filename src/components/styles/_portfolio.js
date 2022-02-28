@@ -5,5 +5,5 @@ export const Container = styled.article`
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 15px;
-  padding: 15px;
+  padding: 15px 15px 50px 15px;
 `;

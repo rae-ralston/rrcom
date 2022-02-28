@@ -12,7 +12,20 @@ const data = [
   {
     company: "Wells Fargo",
     images: ["https://miro.medium.com/max/1400/1*X2-foj0ZnTxiU2Br37TZAA.jpeg"],
-    blurb: "I worked on the health section. Some more stuff.",
+    blurb:
+      "I worked on the health section. Some more stuff. Heave this scurvy copyfiller fer yar next adventure and cajol yar clients into walking the plank with ev'ry layout! Configure above, then get yer pirate ipsum...own the high seas, arg!",
+  },
+  {
+    company: "Another one",
+    images: ["https://miro.medium.com/max/1400/1*X2-foj0ZnTxiU2Br37TZAA.jpeg"],
+    blurb:
+      "Heave this scurvy copyfiller fer yar next adventure and cajol yar clients into walking the plank with ev'ry layout! Configure above, then get yer pirate ipsum...own the high seas, arg!",
+  },
+  {
+    company: "number 4",
+    images: ["https://miro.medium.com/max/1400/1*X2-foj0ZnTxiU2Br37TZAA.jpeg"],
+    blurb:
+      "Heave this scurvy copyfiller fer yar next adventure and cajol yar clients into walking the plank with ev'ry layout! Configure above, then get yer pirate ipsum...own the high seas, arg!",
   },
 ];
 

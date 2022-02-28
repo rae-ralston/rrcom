@@ -8,4 +8,6 @@ export const Card = styled.div`
   grid-template-areas:
     "images company"
     "images blurb";
+
+  grid-template-rows: min-content 1fr;
 `;
