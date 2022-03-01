@@ -1,25 +1,17 @@
-import { NavContainer } from "./styles/_nav.js";
-import { Link } from "./styles/_nav.link.js";
-import { NameTitle } from "./styles/_nav.name-title.js";
-import { Links } from "./styles/_nav.links.js";
-import { Footer } from "./styles/_nav.footer.js";
+import { Container } from "./styles/_nav.js";
+import { Title } from "./styles/_portfolio.title.js";
 
-export const Nav = () => {
-  return (
-    <NavContainer>
-      <NameTitle>
-        <h1>Rachel Ralston</h1>
-        <h2>Software Engineering</h2>
-      </NameTitle>
+export const Nav = () => (
+  <Container>
+    <Title>Rae Ralston</Title>
 
-      <Links>
-        <Link href="#">About</Link>
-        <Link href="#">Services</Link>
-        <Link href="#">Portfolio</Link>
-        <Link href="#">Contact</Link>
-      </Links>
+    <div>
+      <button href="#">About</button>
+      <button href="#">Services</button>
+      <button href="#">Portfolio</button>
+      <button href="#">Contact</button>
+    </div>
 
-      <Footer>logo icon footer</Footer>
-    </NavContainer>
-  );
-};
+    <p>let's work together</p>
+  </Container>
+);

@@ -8,7 +8,7 @@ import { Testimonials } from "./components/testimonials.js";
 
 function App() {
   return (
-    <Layout className="App">
+    <Layout>
       <Nav />
       <Landing />
 

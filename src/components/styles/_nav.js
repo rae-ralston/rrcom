@@ -1,21 +1,29 @@
 import styled from "@emotion/styled";
 
-export const NavContainer = styled.nav`
-  grid-area: nav;
-  width: 300px;
+export const Container = styled.nav`
+  position: fixed;
+  top: 0;
   border-right: 2px solid blue;
-  height: 100vh;
+  background-color: #fff;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 
-  display: grid;
-  grid-template-rows: min-content min-content 1fr min-content;
-  grid-template-areas:
-    "logo"
-    "nameTitle"
-    "links"
-    "footer";
+  & button {
+    padding: 20px;
+    margin 3px;
+    border: 0;
+  }
 
-  justify-items: center;
-  align-items; center;
+  h3 {
+    padding: 0;
+    padding-left: 10px;
+    margin: 0;
+  }
 
-  display: none;
+  p {
+    padding-right: 10px;
+  }
 `;

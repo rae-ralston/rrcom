@@ -2,14 +2,23 @@ import styled from "@emotion/styled";
 
 export const Container = styled.article`
   grid-area: landing;
-  background-color: #101c2a;
-  color: #fff;
+  background-color: #fff;
+  color: #101c2a;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 15px;
   align-items: center;
   justify-content: center;
-  padding: 50px;
+  padding: 0 40px;
+
+  & p {
+    max-width: 525px;
+    margin: 0 auto;
+  }
+
+  & img {
+    max-width: 100%;
+  }
 
   & .headline-wrapper {
     display: flex;

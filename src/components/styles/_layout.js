@@ -9,8 +9,4 @@ export const Layout = styled.div`
     "nav testimonials"
     "nav contact";
   grid-template-columns: min-content 1fr;
-
-  & article {
-    padding: 40px;
-  }
 `;

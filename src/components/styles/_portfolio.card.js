@@ -1,13 +1,23 @@
 import styled from "@emotion/styled";
 
 export const Card = styled.div`
-  background-color: #fff;
   border-radius: 4px;
-  display: grid;
   padding: 10px;
-  grid-template-areas:
-    "images company"
-    "images blurb";
+  width: 300px;
+  height: 100px;
+  background-image: url(${(props) => props.image});
 
-  grid-template-rows: min-content 1fr;
+  position: relative;
+  text-align: center;
+  color: white;
+
+  & h3 {
+    grid-area: company;
+    font-family: "Courier New", monospace;
+  }
+
+  & img {
+    width: 100%;
+    height: 100%;
+  }
 `;

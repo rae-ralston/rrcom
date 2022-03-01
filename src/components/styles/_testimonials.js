@@ -2,8 +2,9 @@ import styled from "@emotion/styled";
 
 export const Container = styled.div`
   grid-area: testimonials;
-  background: yellow;
+  background: #3b81e1;
   height: 400px;
+  padding: 40px;
 
   & .button-container {
     padding: 20px;

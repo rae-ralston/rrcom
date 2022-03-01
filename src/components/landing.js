@@ -1,13 +1,13 @@
 import { motion } from "framer-motion";
 import { Container } from "./styles/_landing.js";
-import { Image } from "./styles/_landing.splash-img.js";
-import splash from "../images/splash.jpg";
+import splash from "../images/work-in-progress.svg";
 
 export const Landing = () => {
   const wave = { rotate: [0, 25, 0, 25, 0, 25, 0] };
+
   return (
     <Container>
-      <Image src={splash} alt="Rachel Ralston, software engineer" />
+      <img src={splash} alt="Rae Ralston, Software Engineer" />
 
       <motion.div
         animate={{ x: [100, 0] }}
