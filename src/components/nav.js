@@ -1,5 +1,3 @@
-import logo from "../logo.svg";
-import { Logo } from "./styles/_logo.js";
 import { NavContainer } from "./styles/_nav.js";
 import { Link } from "./styles/_nav.link.js";
 import { NameTitle } from "./styles/_nav.name-title.js";
@@ -9,7 +7,6 @@ import { Footer } from "./styles/_nav.footer.js";
 export const Nav = () => {
   return (
     <NavContainer>
-      <Logo src={logo} alt="logo img" />
       <NameTitle>
         <h1>Rachel Ralston</h1>
         <h2>Software Engineering</h2>

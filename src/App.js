@@ -1,4 +1,3 @@
-import "./App.css";
 import { Layout } from "./components/styles/_layout.js";
 import { About } from "./components/about.js";
 import { Contact } from "./components/contact.js";
