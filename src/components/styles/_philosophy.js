@@ -7,4 +7,9 @@ export const Container = styled.article`
   grid-template-columns: 1fr 1fr 1fr;
   gap: 15px;
   padding: 40px;
+
+  & div {
+    max-width: 1250px;
+    margin: 0 auto;
+  }
 `;

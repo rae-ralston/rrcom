@@ -5,6 +5,7 @@ export const Card = styled.div`
   padding: 10px;
   width: 250px;
   height: 250px;
+
   position: relative;
   text-align: center;
   color: white;
@@ -19,5 +20,7 @@ export const Card = styled.div`
     width: 100%;
     height: 100%;
     border-radius: 4px;
+    object-fit: cover;
+    object-position: 50% 0%;
   }
 `;

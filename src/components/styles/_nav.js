@@ -12,12 +12,6 @@ export const Container = styled.nav`
   align-items: center;
   z-index: 10;
 
-  & button {
-    padding: 20px;
-    margin 3px;
-    border: 0;
-  }
-
   h3 {
     padding: 0;
     padding-left: 10px;

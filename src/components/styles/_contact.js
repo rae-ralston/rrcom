@@ -7,7 +7,8 @@ export const Container = styled.article`
   display: grid;
   grid-template-columns: 1fr 40%;
   gap: 15px;
-  padding: 40px;
+  max-width: 1250px;
+  margin: 0 auto;
 
   & h1 {
     font-size: 50px;
