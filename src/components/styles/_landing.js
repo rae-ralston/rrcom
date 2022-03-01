@@ -11,12 +11,25 @@ export const Container = styled.article`
   justify-content: center;
   padding: 50px;
 
-  & h1 {
+  & .headline-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    justify-content: center;
+  }
+
+  & .big-boy {
     font-family: "Courier New", monospace;
     font-size: 60px;
+    margin-bottom: 10px;
+
+    & .inline {
+      display: inline;
+    }
   }
 
   & p {
     font-size: 30px;
+    margin-top: 0;
   }
 `;
