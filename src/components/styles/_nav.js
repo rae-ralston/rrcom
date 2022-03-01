@@ -10,6 +10,7 @@ export const Container = styled.nav`
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  z-index: 10;
 
   & button {
     padding: 20px;

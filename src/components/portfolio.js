@@ -35,7 +35,7 @@ export const Portfolio = () => {
     <Container>
       <Title>Projects</Title>
       <img src={makingSite} alt="hire me to make websites!" />
-      <div>
+      <div className="card-container">
         {data.map((d, i) => (
           <ClientCard key={`client-card:${i}`} {...d} />
         ))}
