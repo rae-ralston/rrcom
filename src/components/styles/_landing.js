@@ -13,6 +13,13 @@ export const Container = styled.article`
   max-width: 1250px;
   margin: 0 auto;
 
+  & .lightbulb {
+    position: absolute;
+    left: 225px;
+    top: 50px;
+    width: 115px;
+  }
+
   & p {
     max-width: 525px;
     margin: 0 auto;
@@ -42,5 +49,23 @@ export const Container = styled.article`
   & p {
     font-size: 30px;
     margin-top: 0;
+  }
+
+  .scaling-lightbulb {
+    animation: scalingLightbulb 4s infinite;
+    animation-timing-function: ease-in-out;
+    transform-orgin: center;
+  }
+
+  @keyframes scalingLightbulb {
+    0% {
+      transform: scale(0.8);
+    }
+    50% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(0.8);
+    }
   }
 `;

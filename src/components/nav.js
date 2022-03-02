@@ -5,6 +5,8 @@ export const Nav = () => (
   <Container>
     <Title>Rae Ralston</Title>
 
-    <p>Hire Me</p>
+    <a href="mailto:rachelralston@pm.me?subject=🤘 Hey! Let's Work Together">
+      Hire Me
+    </a>
   </Container>
 );
