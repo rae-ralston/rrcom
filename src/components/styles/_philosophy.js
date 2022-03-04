@@ -4,12 +4,16 @@ export const Container = styled.article`
   grid-area: about;
   background-color: salmon;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 15px;
-  padding: 40px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 25px;
+  padding: 75px 40px 100px 40px;
 
-  & div {
-    max-width: 1250px;
-    margin: 0 auto;
+  & h2 {
+    font-family: "Courier New", monospace;
+    font-size: 50px;
+  }
+
+  & .overview {
+    grid-column: 1/-1;
   }
 `;

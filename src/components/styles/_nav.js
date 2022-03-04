@@ -18,14 +18,19 @@ export const Container = styled.nav`
     margin: 0;
   }
 
+  div {
+    padding: 20px 40px;
+    background-color: #ffd54e;
+  }
+
   a {
     font-weight: 700;
     color: #101c2a;
     text-decoration: none;
     padding: 20px 40px;
-    background-color: #ffd54e;
     border: 0;
     font-family: "Courier New", monospace;
     font-size: 25px;
+    cursor: pointer;
   }
 `;

@@ -11,9 +11,8 @@ export const Landing = () => {
       <div>
         <img src={splash} alt="Rae Ralston, Software Engineer" />
         <img
-          className="scaling-lightbulb"
           src={lightbulb}
-          className="lightbulb"
+          className="lightbulb scaling-lightbulb"
           alt="Hiring Rae Ralston Software Engineer is a great idea"
         />
       </div>
