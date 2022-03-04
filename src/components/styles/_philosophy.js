@@ -2,10 +2,10 @@ import styled from "@emotion/styled";
 
 export const Container = styled.article`
   grid-area: about;
-  background: rgb(250, 127, 114);
+  background: rgb(255, 213, 78);
   background: linear-gradient(
     0deg,
-    rgba(250, 127, 114, 1) 0%,
+    rgba(255, 213, 78, 1) 0%,
     rgba(246, 174, 56, 1) 100%
   );
   display: grid;

@@ -3,8 +3,12 @@ import styled from "@emotion/styled";
 export const Container = styled.div`
   grid-area: testimonials;
   background: #3b81e1;
-  height: 400px;
   padding: 40px;
+
+  & h3 {
+    font-family: "Courier Prime", "Courier New", monospace;
+    font-size: 50px;
+  }
 
   & .button-container {
     padding: 20px;

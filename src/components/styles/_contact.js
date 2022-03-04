@@ -10,7 +10,12 @@ export const Container = styled.article`
   max-width: 1250px;
   margin: 0 auto;
 
-  & h1 {
+  & .footer {
+    grid-column: 1/-1;
+    padding-top: 30px;
+  }
+
+  & h2 {
     font-size: 50px;
     font-family: "Courier Prime", "Courier New", monospace;
     grid-column: 1/-1;

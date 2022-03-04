@@ -2,15 +2,14 @@ import styled from "@emotion/styled";
 
 export const Card = styled.div`
   border-radius: 12px;
-  padding: 10px;
+  border: 2px solid #01133b;
+  margin: 10px;
   width: 250px;
   height: 250px;
-
   position: relative;
   text-align: center;
   color: white;
-  background-color: #f6ae38;
-  margin: 10px;
+  background-color: #01133b;
 
   & h3 {
     font-family: "Courier Prime", "Courier New", monospace;
