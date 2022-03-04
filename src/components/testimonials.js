@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Container } from "./styles/_testimonials.js";
+import { Container } from "./styles/_testimonials";
 import { ReqCard } from "./testimonials.card";
 import ethan from "../images/ethan.jpeg";
 import evan from "../images/evan.jpeg";

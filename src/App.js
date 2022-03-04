@@ -1,9 +1,9 @@
-import { About } from "./components/philosophy.js";
-import { Contact } from "./components/contact.js";
-import { Landing } from "./components/landing.js";
-import { Nav } from "./components/nav.js";
-import { Portfolio } from "./components/portfolio.js";
-import { Testimonials } from "./components/testimonials.js";
+import { About } from "./components/philosophy";
+import { Contact } from "./components/contact";
+import { Landing } from "./components/landing";
+import { Nav } from "./components/nav";
+import { Portfolio } from "./components/portfolio";
+import { Testimonials } from "./components/testimonials";
 
 function App() {
   return (

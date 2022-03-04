@@ -1,5 +1,5 @@
-import { Container } from "./styles/_nav.js";
-import { Title } from "./styles/_portfolio.title.js";
+import { Container } from "./styles/_nav";
+import { Title } from "./styles/_portfolio.title";
 
 export const Nav = () => (
   <Container>

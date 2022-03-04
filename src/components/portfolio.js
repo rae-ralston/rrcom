@@ -1,6 +1,6 @@
-import { Container } from "./styles/_portfolio.js";
-import { ClientCard } from "./portfolio.card.js";
-import { Title } from "./styles/_portfolio.title.js";
+import { Container } from "./styles/_portfolio";
+import { ClientCard } from "./portfolio.card";
+import { Title } from "./styles/_portfolio.title";
 import makingSite from "../images/create-website.svg";
 import wellsfargo1 from "../images/wells-fargo1.png";
 import wellsfargo2 from "../images/wells-fargo2.png";

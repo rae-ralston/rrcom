@@ -1,4 +1,4 @@
-import { Card } from "./styles/_portfolio.card.js";
+import { Card } from "./styles/_portfolio.card";
 
 export const ClientCard = ({ companyName, images, blurb }) => (
   <Card>

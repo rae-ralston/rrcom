@@ -1,6 +1,6 @@
-import { Container } from "./styles/_philosophy.js";
+import { Container } from "./styles/_philosophy";
 import { Card } from "./philosophy.card";
-import { skills } from "./portfolio.skills.js";
+import { skills } from "./philsophy.skills";
 
 export const About = () => {
   const skillCards = skills.map((skill) => <Card {...skill} />);
