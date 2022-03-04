@@ -37,7 +37,7 @@ export const Container = styled.article`
   }
 
   & .big-boy {
-    font-family: "Courier New", monospace;
+    font-family: "Courier Prime", "Courier New", monospace;
     font-size: 60px;
     margin-bottom: 10px;
 

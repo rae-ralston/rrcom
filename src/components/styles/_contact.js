@@ -12,7 +12,7 @@ export const Container = styled.article`
 
   & h1 {
     font-size: 50px;
-    font-family: "Courier New", monospace;
+    font-family: "Courier Prime", "Courier New", monospace;
     grid-column: 1/-1;
   }
 
