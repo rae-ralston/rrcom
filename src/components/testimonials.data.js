@@ -9,7 +9,11 @@ export const recommendations = [
     position: "Senior Full Stack Engineer",
     company: "GovOs",
     img: ethan,
-    req: "Can you please send me the design specs again? in an ideal world. I like it, but can the snow look a little warmer i think this should be fairly easy so if you just want to have a look and just do what you think. I trust you I have an awesome idea for a startup,",
+    req: `I’ve had the distinct pleasure of building software with Rae for a number of years, for two different organizations, and I’m looking forward to more.
+
+    I’m inspired by their internal motivation and drive — once they’ve set their sights on a goal, they drive it to the finish line with tenacity.
+    
+    Rae is an expert communicator. So much of building software in teams is giving and receiving feedback on code and ideas, and they're extremely skilled at providing feedback that is actionable, specific, and kind. Their high standards for code quality, code feedback, and technical writing are huge assets to our product.`,
   },
   {
     name: "Evan Sherwood",
