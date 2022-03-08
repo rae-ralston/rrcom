@@ -5,7 +5,7 @@ export const Container = styled.article`
   background-color: #fffd;
   color: #101c2a;
   display: grid;
-  grid-template-columns: 1fr 40%;
+  grid-template-columns: 1fr 25%;
   gap: 15px;
   max-width: 1250px;
   margin: 0 auto;
@@ -13,6 +13,10 @@ export const Container = styled.article`
   & .footer {
     grid-column: 1/-1;
     padding-top: 30px;
+  }
+
+  & p {
+    font-size: 2em;
   }
 
   & h2 {
