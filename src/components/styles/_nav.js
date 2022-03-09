@@ -1,4 +1,5 @@
 import styled from "@emotion/styled";
+import { fontFamily } from "../constants";
 
 export const Container = styled.nav`
   position: fixed;
@@ -25,7 +26,7 @@ export const Container = styled.nav`
     padding: 20px 40px;
     background-color: #ffd54e;
     border: 0;
-    font-family: "Courier Prime", "Courier New", monospace;
+    font-family: ${fontFamily}
     font-size: 25px;
     cursor: pointer;
   }

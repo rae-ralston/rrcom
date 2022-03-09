@@ -1,4 +1,5 @@
 import styled from "@emotion/styled";
+import { fontFamily } from "../constants.js";
 
 export const Card = styled.div`
   border-radius: 12px;
@@ -12,7 +13,7 @@ export const Card = styled.div`
   background-color: #01133b;
 
   & h3 {
-    font-family: "Courier Prime", "Courier New", monospace;
+    font-family: ${fontFamily};
   }
 
   & img {

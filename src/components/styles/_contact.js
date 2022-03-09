@@ -1,4 +1,5 @@
 import styled from "@emotion/styled";
+import { fontFamily } from "../constants";
 
 export const Container = styled.article`
   grid-area: contact;
@@ -21,7 +22,7 @@ export const Container = styled.article`
 
   & h2 {
     font-size: 50px;
-    font-family: "Courier Prime", "Courier New", monospace;
+    font-family: ${fontFamily}
     grid-column: 1/-1;
   }
 

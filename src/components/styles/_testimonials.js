@@ -1,4 +1,5 @@
 import styled from "@emotion/styled";
+import { fontFamily } from "../constants";
 
 export const Container = styled.div`
   grid-area: testimonials;
@@ -6,7 +7,7 @@ export const Container = styled.div`
   padding: 40px;
 
   & h3 {
-    font-family: "Courier Prime", "Courier New", monospace;
+    font-family: ${fontFamily}
     font-size: 50px;
   }
 

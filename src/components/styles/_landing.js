@@ -1,4 +1,5 @@
 import styled from "@emotion/styled";
+import { fontFamily } from "../constants";
 
 export const Container = styled.article`
   grid-area: landing;
@@ -37,7 +38,7 @@ export const Container = styled.article`
   }
 
   & .big-boy {
-    font-family: "Courier Prime", "Courier New", monospace;
+    font-family: ${fontFamily}
     font-size: 60px;
     margin-bottom: 10px;
 

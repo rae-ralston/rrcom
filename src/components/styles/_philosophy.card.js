@@ -1,4 +1,5 @@
 import styled from "@emotion/styled";
+import { fontFamily } from "../constants";
 
 export const Container = styled.div`
   display: grid;
@@ -12,6 +13,7 @@ export const Container = styled.div`
   & h4 {
     padding: 0px;
     margin: 10px;
+    font-family: ${fontFamily};
   }
 
   & p {
