@@ -1,10 +1,10 @@
 import styled from "@emotion/styled";
-import { fontFamily } from "../constants";
+import { fontFamily, colors } from "../constants";
 
 export const Container = styled.div`
   display: grid;
   border-radius: 8px;
-  background-color: #fff;
+  background-color: ${colors.white};
   grid-template-rows: 100px 60px 1fr;
   gap: 5px;
   padding: 10px 20px;

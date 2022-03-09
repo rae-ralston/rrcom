@@ -1,11 +1,11 @@
 import styled from "@emotion/styled";
-import { fontFamily } from "../constants";
+import { fontFamily, colors } from "../constants";
 
 export const Container = styled.nav`
   position: fixed;
   top: 0;
   border-right: 2px solid blue;
-  background-color: #fff;
+  background-color: ${colors.white};
   width: 100vw;
   display: flex;
   flex-direction: row;

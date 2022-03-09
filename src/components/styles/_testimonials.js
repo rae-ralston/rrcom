@@ -1,9 +1,9 @@
 import styled from "@emotion/styled";
-import { fontFamily } from "../constants";
+import { fontFamily, colors } from "../constants";
 
 export const Container = styled.div`
   grid-area: testimonials;
-  background: #3b81e1;
+  background: ${colors.brightBlue};
   padding: 40px;
 
   & h3 {
@@ -21,7 +21,7 @@ export const Container = styled.div`
 
     & button {
       padding: 10px 20px;
-      background-color: #fff;
+      background-color: ${colors.white};
       border-radius: 12px;
       border: 1px solid #101c2a;
     }

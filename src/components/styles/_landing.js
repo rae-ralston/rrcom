@@ -1,9 +1,9 @@
 import styled from "@emotion/styled";
-import { fontFamily } from "../constants";
+import { fontFamily, colors } from "../constants";
 
 export const Container = styled.article`
   grid-area: landing;
-  background-color: #fff;
+  background-color: ${colors.white};
   color: #101c2a;
   display: grid;
   grid-template-columns: 1fr 1fr;
