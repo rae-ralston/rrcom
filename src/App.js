@@ -1,21 +1,5 @@
-import { About } from "./components/philosophy";
-import { Contact } from "./components/contact";
-import { Landing } from "./components/landing";
-import { Nav } from "./components/nav";
-import { Portfolio } from "./components/portfolio";
-import { Testimonials } from "./components/testimonials";
+import Landing from "./components/landing";
 
-function App() {
-  return (
-    <>
-      <Nav />
-      <Landing />
-      <About />
-      <Portfolio />
-      <Testimonials />
-      <Contact />
-    </>
-  );
-}
+const App = () => <Landing />;
 
 export default App;
