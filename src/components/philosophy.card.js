@@ -4,7 +4,7 @@ import { iconConfig } from "./constants";
 
 export const Card = ({ Icon, title, summary }) => (
   <Container>
-    <IconContext.Provider value={iconConfig({})}>
+    <IconContext.Provider value={iconConfig({ size: "60px" })}>
       <Icon className="service-icon" />
     </IconContext.Provider>
     <h4>{title}</h4>
