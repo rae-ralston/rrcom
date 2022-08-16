@@ -6,6 +6,10 @@ export default styled.article`
   background-color: ${(props) => props.background};
   color: ${(props) => props.mainText};
 
+  a {
+    color: ${(props) => props.mainText};
+  }
+
   h1 {
     font-size: 50px;
     ${(props) => props.headlineFont}

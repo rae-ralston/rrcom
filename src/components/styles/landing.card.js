@@ -6,6 +6,10 @@ export default styled.div`
   color: ${(props) => props.mainText};
   cursor: pointer;
 
+  a {
+    color: ${(props) => props.mainText};
+  }
+
   h1 {
     font-size: 50px;
     ${(props) => props.headlineFont}

@@ -1,5 +1,7 @@
+import { types } from "../components/constants";
+
 export const viewStyles = {
-  art: {
+  [types.art]: {
     background: "#F4E7D7",
     mainText: "#1D1D1B",
     mainTextFont: "",
@@ -11,7 +13,7 @@ export const viewStyles = {
     `,
     disabled: {},
   },
-  code: {
+  [types.code]: {
     background: "#FEBF12",
     mainText: "#020202",
     mainTextFont: "",
@@ -23,4 +25,5 @@ export const viewStyles = {
     `,
     disabled: {},
   },
+  [types.landing]: {},
 };

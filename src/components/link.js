@@ -1,14 +1,14 @@
-import { Link as RouterLink } from "react-router-dom";
 import { useContext } from "react";
 import ViewContext from "../hooks/view-context";
+import { StyledLink } from "./styles/nav";
 
 const Link = ({ to, page, text }) => {
   const view = useContext(ViewContext);
 
   return (
-    <RouterLink to={to} onClick={() => view.setView(page)}>
+    <StyledLink to={to} onClick={() => view.setView(page)} type={page}>
       {text}
-    </RouterLink>
+    </StyledLink>
   );
 };
 
