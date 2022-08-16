@@ -1,10 +1,10 @@
-import CardContainer from "./styles/landing.card";
+import Card from "./card";
 import { types } from "./constants";
 
 const Code = () => (
-  <CardContainer type={types.code}>
+  <Card type={types.code}>
     <h1>Code</h1>
-  </CardContainer>
+  </Card>
 );
 
 export default Code;

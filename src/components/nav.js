@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import ViewContext from "../context.view";
+import ViewContext from "../hooks/view-context";
 import { types } from "./constants";
 import Nav from "./styles/nav";
 

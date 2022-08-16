@@ -1,15 +1,15 @@
 import styled from "@emotion/styled";
-import * as util from "./utils";
+import * as util from "../../hooks/view-styles";
 
 export default styled.div`
   padding: 40px;
-  background-color: ${util.getBackgroundColor};
-  color: ${util.getHeadlineColor};
+  background-color: ${(props) => props.background};
+  color: ${(props) => props.mainText};
   cursor: pointer;
 
   h1 {
     font-size: 50px;
-    ${util.getHeadlineColorFont}
+    ${(props) => props.headlineFont}
   }
 
   &:hover {

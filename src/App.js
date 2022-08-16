@@ -2,8 +2,8 @@ import Art from "./components/card-art";
 import Code from "./components/card-code";
 import Navigation from "./components/nav";
 import Container from "./components/styles/landing";
-import ViewContext from "./context.view";
-import useViewContext from "./use-view-context";
+import ViewContext from "./hooks/view-context";
+import useViewContext from "./hooks/use-view-context";
 
 const App = () => {
   const viewing = useViewContext();
