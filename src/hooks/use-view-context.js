@@ -3,7 +3,7 @@ import { types } from "../components/constants";
 import { viewStyles } from "./view-styles";
 
 const ViewContext = () => {
-  const [view, setView] = useState(types.art);
+  const [view, setView] = useState(types.landing);
 
   return {
     type: view,

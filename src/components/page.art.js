@@ -1,5 +1,9 @@
-import Page from "./page.container";
+import Page from "./page";
 
-const Art = () => <Page>Art</Page>;
+const Art = () => (
+  <Page>
+    <h1>Art</h1>
+  </Page>
+);
 
 export default Art;

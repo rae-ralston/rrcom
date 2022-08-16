@@ -1,5 +1,9 @@
-import Page from "./styles/page";
+import Page from "./page";
 
-const Code = () => <Page>Code</Page>;
+const Code = () => (
+  <Page>
+    <h1>Code</h1>
+  </Page>
+);
 
 export default Code;
