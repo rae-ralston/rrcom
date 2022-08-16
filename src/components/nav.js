@@ -1,11 +1,25 @@
-import { mailTo } from "./constants";
-import { Container } from "./styles/_nav";
-import { Title } from "./styles/_portfolio.title";
+import { useContext } from "react";
+import ViewContext from "../hooks/view-context";
+import { types } from "./constants";
+import Link from "./link";
+import Nav, { Container } from "./styles/nav";
 
-export const Nav = () => (
-  <Container>
-    <Title>Rae Ralston</Title>
+const Navigation = () => {
+  const { type } = useContext(ViewContext);
+  const { art, code } = types;
 
-    <a href={mailTo}>Hire Me</a>
-  </Container>
-);
+  return (
+    <Nav>
+      <Link to={"/"} page={types.landing} text="Rae Ralston" />
+
+      {type !== types.landing && (
+        <Container>
+          <Link to={`/${art}`} page={art} text="Art" />
+          <Link to={`/${code}`} page={code} text="Code" />
+        </Container>
+      )}
+    </Nav>
+  );
+};
+
+export default Navigation;
