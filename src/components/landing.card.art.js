@@ -1,4 +1,4 @@
-import Card from "./card";
+import Card from "./landing.card";
 import { types } from "./constants";
 
 const Art = () => (

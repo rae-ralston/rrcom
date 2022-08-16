@@ -1,5 +1,4 @@
 import styled from "@emotion/styled";
-import * as util from "../../hooks/view-styles";
 
 export default styled.div`
   padding: 40px;
