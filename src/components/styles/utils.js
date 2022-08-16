@@ -1,32 +1,23 @@
-import { pathOr } from "ramda";
-
-export const fontFamily = `"Courier Prime", "Courier New", monospace;`;
+import { path } from "ramda";
 
 export const colors = {
-  brightBlue: "#3b81e1",
-  white: "#fff",
-  black: "#000",
-  lightGray: "#aaa",
-  default: {
-    white: "grey",
-    black: "salmon",
-  },
   art: {
-    white: "#F9EFDE",
-    black: "#161616",
-    accent: "",
+    background: "#F4E7D7",
+    mainText: "#1D1D1B",
+    mainTextFont: "",
+    headLineText: "#E55825",
     headlineFont: ``,
   },
   code: {
-    white: "yellow",
-    black: "purple",
-    accent: "",
+    background: "#F5C8C3",
+    mainText: "#020202",
+    mainTextFont: "",
+    headLineText: "#020202",
     headlineFont: ``,
   },
 };
 
-export const getColor = (type, color) =>
-  pathOr(colors.default[color], [type, color], colors);
+export const getColor = (type, color) => path([type, color], colors);
 
-export const getBlack = (props) => getColor(props.type, "black");
-export const getWhite = (props) => getColor(props.type, "white");
+export const getBackground = (props) => getColor(props.type, "background");
+export const getHeadline = (props) => getColor(props.type, "headLineText");
