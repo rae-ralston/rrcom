@@ -9,7 +9,7 @@ export const colors = {
     headlineFont: ``,
   },
   code: {
-    background: "#F5C8C3",
+    background: "#FEBF12",
     mainText: "#020202",
     mainTextFont: "",
     headLineText: "#020202",
