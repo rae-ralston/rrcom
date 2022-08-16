@@ -1,7 +1,8 @@
-import Art from "./components/landing.card.art";
-import Code from "./components/landing.card.code";
+import { Routes, Route } from "react-router-dom";
+import Art from "./components/art";
+import Code from "./components/code";
+import Landing from "./components/landing";
 import Navigation from "./components/nav";
-import Container from "./components/styles/landing";
 import ViewContext from "./hooks/view-context";
 import useViewContext from "./hooks/use-view-context";
 
@@ -11,10 +12,11 @@ const App = () => {
   return (
     <ViewContext.Provider value={view}>
       <Navigation />
-      <Container>
-        <Art />
-        <Code />
-      </Container>
+      <Routes>
+        <Route path="/" element={<Landing />} />
+        <Route path="art" element={<Art />} />
+        <Route path="code" element={<Code />} />
+      </Routes>
     </ViewContext.Provider>
   );
 };

@@ -9,6 +9,7 @@ export const viewStyles = {
       font-weight: normal;
       font-style: normal;
     `,
+    disabled: {},
   },
   code: {
     background: "#FEBF12",
@@ -20,5 +21,6 @@ export const viewStyles = {
       font-weight: normal;
       font-style: normal;
     `,
+    disabled: {},
   },
 };
