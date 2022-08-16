@@ -1,7 +1,7 @@
 import styled from "@emotion/styled";
 
 export default styled.article`
-  height: calc(100vh - 28px);
+  height: calc(100vh - 50px);
   padding: 40px;
   background-color: ${(props) => props.background};
   color: ${(props) => props.mainText};

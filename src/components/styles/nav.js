@@ -1,14 +1,18 @@
 import styled from "@emotion/styled";
-import { viewStyles } from "../../hooks/view-styles";
-import { Link } from "react-router-dom";
 import { isEmpty } from "ramda";
+import { Link } from "react-router-dom";
+import { viewStyles } from "../../hooks/view-styles";
 import { types } from "../constants";
 
 export default styled.nav`
   border-bottom: 1px solid black;
   padding: 8px 5px 5px 5px;
+  height: 50px;
+  font-size: 30px;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 
   font-family: "Babe Sans";
   font-weight: normal;
@@ -18,6 +22,7 @@ export default styled.nav`
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
   }
 `;
 
@@ -36,12 +41,16 @@ const styleByType = (props) => {
     ${props.type === types.art ? "border-right: 0;" : ""}
     ${props.type === types.code ? "border-left: 0;" : ""}
     border-radius: ${props.type === types.art ? "6px 0 0 6px" : "0 6px 6px 0"};
+    ${styles.headlineFont};
     background-color: ${styles.background};
     color: ${styles.headLineText};
+    ${props.type === types.art ? "padding: 6px 14px 3px 14px;" : ""}
   `;
 };
 
 export const StyledLink = styled(Link)`
-  padding: 5px 8px;
+  padding: 10px 14px 3px 14px;
+  font-size: 25px;
+  min-height: 26px;
   ${styleByType}
 `;
