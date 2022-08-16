@@ -1,8 +1,8 @@
 import { Routes, Route } from "react-router-dom";
-import Art from "./components/art";
-import Code from "./components/code";
 import Landing from "./components/landing";
 import Navigation from "./components/nav";
+import Art from "./components/page.art";
+import Code from "./components/page.code";
 import ViewContext from "./hooks/view-context";
 import useViewContext from "./hooks/use-view-context";
 
