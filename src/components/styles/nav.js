@@ -28,7 +28,7 @@ export const Container = styled.div`
 
 const styleByType = (props) => {
   const styles = viewStyles[props.type] || {};
-  console.log({ stylesEmpty: isEmpty(styles), styles, props });
+
   return isEmpty(styles)
     ? ""
     : `
