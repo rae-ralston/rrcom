@@ -1,16 +1,16 @@
-import sketch from "../sketch";
 import Art from "./landing.card.art";
 import Code from "./landing.card.code";
 import Container from "./styles/landing";
-import { ReactP5Wrapper } from "react-p5-wrapper";
+import Card from "../sketches/card";
+import sketch220825 from "../sketches/220825";
 
 const Landing = () => (
   <>
-    <ReactP5Wrapper sketch={sketch} />
     <Container>
       <Art />
       <Code />
     </Container>
+    <Card toDraw={sketch220825} />
   </>
 );
 
