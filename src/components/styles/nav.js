@@ -13,7 +13,7 @@ export default styled.nav`
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  color: ${viewStyles.default.headlineColor}
+  color: ${viewStyles?.default?.headlineColor}
 
   font-family: "Babe Sans";
   font-weight: normal;
@@ -42,9 +42,9 @@ const styleByType = (props) => {
     ${props.type === types.art ? "border-right: 0;" : ""}
     ${props.type === types.code ? "border-left: 0;" : ""}
     border-radius: ${props.type === types.art ? "6px 0 0 6px" : "0 6px 6px 0"};
-    font-family: ${styles.headlineFont};
-    background-color: ${styles.backgroundColor};
-    color: ${styles.headlineColor};
+    font-family: ${styles?.headlineFont};
+    background-color: ${styles?.backgroundColor};
+    color: ${styles?.headlineColor};
     ${props.type === types.art ? "padding: 6px 14px 3px 14px;" : ""}
   `;
 };

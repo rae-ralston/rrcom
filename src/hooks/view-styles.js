@@ -1,7 +1,7 @@
 import { types } from "../components/constants";
 
 export const viewStyles = {
-  general: { headlineColor: "#E55825" },
+  default: { headlineColor: "#E55825" },
   [types.art]: {
     backgroundColor: "#F4E7D7",
     mainTextColor: "#1D1D1B",
