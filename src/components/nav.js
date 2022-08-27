@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import ViewContext from "../hooks/view-context";
+import ViewContext from "../context/view-context";
 import { types } from "./constants";
 import Link from "./link";
 import Nav, { Container } from "./styles/nav";

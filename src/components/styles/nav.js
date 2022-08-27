@@ -1,7 +1,7 @@
 import styled from "@emotion/styled";
 import { isEmpty } from "ramda";
 import { Link } from "react-router-dom";
-import { viewStyles } from "../../hooks/view-styles";
+import { viewStyles } from "../../context/view-styles";
 import { types } from "../constants";
 
 export default styled.nav`

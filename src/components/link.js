@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import ViewContext from "../hooks/view-context";
+import ViewContext from "../context/view-context";
 import { StyledLink } from "./styles/nav";
 
 const Link = ({ to, page, text }) => {

@@ -1,10 +1,10 @@
 import { Routes, Route } from "react-router-dom";
+import useViewContext from "./context/use-view-context";
+import ViewContext from "./context/view-context";
+import Art from "./components/art";
 import Landing from "./components/landing";
 import Navigation from "./components/nav";
-import Art from "./components/page.art";
 import Code from "./components/page.code";
-import ViewContext from "./hooks/view-context";
-import useViewContext from "./hooks/use-view-context";
 
 const App = () => {
   const view = useViewContext();

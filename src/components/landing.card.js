@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import { Link } from "react-router-dom";
-import ViewContext from "../hooks/view-context";
-import { viewStyles } from "../hooks/view-styles";
+import ViewContext from "../context/view-context";
+import { viewStyles } from "../context/view-styles";
 import CardContainer from "./styles/landing.card";
 
 const Card = ({ children, type }) => {
