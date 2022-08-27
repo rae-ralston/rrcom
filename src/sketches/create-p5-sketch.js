@@ -1,6 +1,6 @@
 import { isNil } from "ramda";
 
-const sketch = (componentProps) => (p5) => {
+const create = (componentProps) => (p5) => {
   const { width, height, toDraw } = componentProps;
 
   if (isNil(width) || isNil(height) || isNil(toDraw)) return;
@@ -9,4 +9,4 @@ const sketch = (componentProps) => (p5) => {
   p5.draw = toDraw(p5);
 };
 
-export default sketch;
+export default create;
