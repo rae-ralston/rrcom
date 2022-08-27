@@ -8,7 +8,7 @@ const Art = () => (
     <h1>Art</h1>
     <CardContainer>
       {data.map((dailyArt) => (
-        <Card key={dailyArt.title} width={500} height={500} {...dailyArt} />
+        <Card key={dailyArt.id} width={500} height={500} {...dailyArt} />
       ))}
     </CardContainer>
   </Page>

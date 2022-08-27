@@ -8,22 +8,26 @@ const isNotNil = complement(isNil);
 const MIN_HEIGHT = 101;
 
 const Card = (props) => {
-  const { width, height, toDraw, title, blurb } = props;
+  const {
+    width: incomingHeight,
+    height: incomingWidth,
+    toDraw,
+    title,
+    blurb,
+  } = props;
   const { ref, dims } = useDimensions();
-  const containerRef = isNotNil(width) && isNotNil(height) ? {} : { ref };
+
+  const width = isNotNil(incomingWidth) ? incomingWidth : dims.width;
+  const height = isNotNil(incomingHeight)
+    ? incomingHeight
+    : dims.height || MIN_HEIGHT;
 
   return (
     <div>
       {title && <h2>{title}</h2>}
       {blurb && <p>{blurb}</p>}
-      <ArtContainer {...containerRef}>
-        <ReactP5Wrapper
-          sketch={create({
-            height: dims.height || MIN_HEIGHT,
-            width: dims.width,
-            toDraw,
-          })}
-        />
+      <ArtContainer ref={ref}>
+        <ReactP5Wrapper sketch={create({ height, width, toDraw })} />
       </ArtContainer>
     </div>
   );
