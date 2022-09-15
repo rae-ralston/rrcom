@@ -1,23 +1,16 @@
-import { useContext } from "react";
-import ViewContext from "../context/view-context";
-import { types } from "./constants";
-import Link from "./link";
+import { Link } from "react-router-dom";
 import Nav, { Container } from "./styles/nav";
 
 const Navigation = () => {
-  const { type } = useContext(ViewContext);
-  const { art, code } = types;
-
   return (
     <Nav>
-      <Link to={"/"} page={types.landing} text="Rae Ralston" />
+      <Link to={"/"}>Rae</Link>
 
-      {type !== types.landing && (
-        <Container>
-          <Link to={`/${art}`} page={art} text="Art" />
-          <Link to={`/${code}`} page={code} text="Code" />
-        </Container>
-      )}
+      <Container>
+        <Link to={`/who`}>Who</Link>
+        <Link to={`/what`}>What</Link>
+        <Link to={`/work`}>Work</Link>
+      </Container>
     </Nav>
   );
 };
