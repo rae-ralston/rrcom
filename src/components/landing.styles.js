@@ -1,7 +1,12 @@
-import styled from "@emotion/styled";
+import { css } from "@emotion/react";
 
-export default styled.article`
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  height: calc(100vh - 50px);
-`;
+const styles = {
+  splash: css`
+    background-color: hotpink;
+  `,
+  about: css`
+    background-color: yellow;
+  `,
+};
+
+export default styles;

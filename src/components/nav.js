@@ -7,6 +7,7 @@ const Navigation = () => {
       <Link to={"/"}>Rae</Link>
 
       <Container>
+        <Link to={`/`}>Intro</Link>
         <Link to={`/who`}>Who</Link>
         <Link to={`/what`}>What</Link>
         <Link to={`/work`}>Work</Link>

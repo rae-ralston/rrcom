@@ -1,3 +1,5 @@
-const What = () => <h1>What</h1>;
+import Section from "../units/section";
+
+const What = () => <Section>What</Section>;
 
 export default What;
