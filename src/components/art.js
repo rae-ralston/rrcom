@@ -1,6 +1,6 @@
 import Card from "../sketches/card";
 import data from "./art.data";
-import CardContainer from "./styles/art.container";
+import CardContainer from "./art.styles";
 
 const Art = () => (
   <>

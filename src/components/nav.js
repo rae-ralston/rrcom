@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import Nav, { Container } from "./styles/nav";
+import Nav, { Container } from "./nav.styles";
 
 const Navigation = () => {
   return (
@@ -11,6 +11,7 @@ const Navigation = () => {
         <Link to={`/what`}>What</Link>
         <Link to={`/work`}>Work</Link>
       </Container>
+      <button onClick={() => {}}>contact</button>
     </Nav>
   );
 };
