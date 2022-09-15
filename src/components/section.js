@@ -1,9 +1,8 @@
 import styled from "@emotion/styled";
-
-const navHeight = 64;
+import { computerNavHeight } from "./constants";
 
 const Section = styled.div`
-  height: calc(100vh - ${navHeight}px);
+  height: calc(100vh - ${computerNavHeight}px);
   padding: 10px;
 `;
 export default Section;
