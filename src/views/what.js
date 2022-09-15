@@ -1,4 +1,4 @@
-import Section from "../units/section";
+import Section from "../components/section";
 
 const What = () => <Section>What</Section>;
 

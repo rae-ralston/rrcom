@@ -1,10 +1,10 @@
 import { Routes, Route } from "react-router-dom";
-import Landing from "./components/landing";
-import Navigation from "./components/nav";
-import Who from "./components/who";
-import What from "./components/what";
-import Work from "./components/work";
 import Footer from "./components/footer";
+import Navigation from "./components/nav";
+import Landing from "./views/landing";
+import What from "./views/what";
+import Who from "./views/who";
+import Work from "./views/work";
 
 const App = () => (
   <>

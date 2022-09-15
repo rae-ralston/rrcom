@@ -1,6 +1,6 @@
 /** @jsxImportSource @emotion/react */
 
-import Section from "../units/section";
+import Section from "../components/section";
 import styles from "./landing.styles";
 
 const Landing = () => (
