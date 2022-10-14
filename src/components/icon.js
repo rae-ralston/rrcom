@@ -7,11 +7,16 @@ export const types = {
   email: "email",
 };
 
-export const links = {
-  github: "http://www.github.com/rachel-ftw",
-  linkedIn: "https://www.linkedin.com/in/raeralston",
-  email: "mailto:raeralston@pm.me",
-};
+export const footerIcons = [
+  {
+    type: types.github,
+    href: "http://www.github.com/rachel-ftw",
+  },
+  {
+    type: types.linkedIn,
+    href: "https://www.linkedin.com/in/raeralston",
+  },
+];
 
 const Icon = ({ type, href }) => {
   const getIconByType = () => {

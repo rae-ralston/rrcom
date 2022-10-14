@@ -1,6 +1,10 @@
 # Rae Ralston Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+TODO
+
+- [ ] aws ci badge
+- [ ] other badges?
+- [ ] make this readme cool.
 
 ## Running the App
 
