@@ -3,7 +3,8 @@ import { ReactP5Wrapper } from "react-p5-wrapper";
 import create from "./create-p5-sketch.js";
 import useDimensions from "./use-dims";
 import ArtContainer from "./styles/card";
-
+import { types } from "../views/art.data.js";
+import Canvas from "./221018";
 const isNotNil = complement(isNil);
 const MIN_HEIGHT = 101;
 
@@ -14,6 +15,8 @@ const Card = (props) => {
     toDraw,
     title,
     blurb,
+    type,
+    id,
   } = props;
   const { ref, dims } = useDimensions();
 
@@ -22,13 +25,18 @@ const Card = (props) => {
     ? incomingHeight
     : dims.height || MIN_HEIGHT;
 
+  const display =
+    type === types.p5js ? (
+      <ReactP5Wrapper sketch={create({ height, width, toDraw })} />
+    ) : (
+      <Canvas id={`three-${id}`} width={width} height={height} />
+    );
+
   return (
     <div>
       {title && <h2>{title}</h2>}
       {blurb && <p>{blurb}</p>}
-      <ArtContainer ref={ref}>
-        <ReactP5Wrapper sketch={create({ height, width, toDraw })} />
-      </ArtContainer>
+      <ArtContainer ref={ref}>{display}</ArtContainer>
     </div>
   );
 };
