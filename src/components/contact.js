@@ -1,30 +1,15 @@
 /** @jsxImportSource @emotion/react */
 
-import { css } from "@emotion/react";
+import { mailTo } from "./constants";
+import styles from "./contact.styles";
 
-const styles = {
-  container: css`
-    width: 100vw;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    right: 0;
-    background-color: white;
-  `,
-  inner: css`
-    border-radius: 20px;
-    position: relative;
-    font-size: 100px;
-    padding: 55px;
-    margin: 30px;
-    height: 100%;
-    background-color: salmon;
-
-    button {
-      font-size: 20px;
-    }
-  `,
-};
+/*
+TODO 🐹
+- animate transition
+- freeze scroll
+- style close button
+- restyle modal
+*/
 
 const Contact = ({ hide, close }) => {
   if (hide) return null;
@@ -32,7 +17,29 @@ const Contact = ({ hide, close }) => {
   return (
     <div css={styles.container}>
       <div css={styles.inner}>
-        info@raeralston.dev <button onClick={close}>close</button>
+        <button css={styles.close} onClick={close}>
+          close
+        </button>
+        <p>Hi There,</p>
+        <p>I am currently accepting clients so</p>
+        <p>
+          <a
+            href="www.google.com"
+            alt="get on the client list for rae ralston software engineering"
+          >
+            get on the list
+          </a>
+          {" or "}
+        </p>
+        <p>
+          <a
+            href={mailTo("🤔 I've got questions")}
+            alt="email rae ralston creative engineering"
+          >
+            shoot me an email
+          </a>{" "}
+          if you've got any questions.
+        </p>
       </div>
     </div>
   );
