@@ -1,11 +1,11 @@
 import { css } from "@emotion/react";
-import { retroWhite, softBlack } from "../components/constants";
+import { retroWhite, retroBlack } from "../components/constants";
 
 const styles = {
   layout: css`
     width: 100vw;
     height: 100vh;
-    background-color: ${softBlack};
+    background-color: ${retroBlack};
   `,
   layoutHeader: css`
     display: grid;
@@ -13,12 +13,12 @@ const styles = {
     background-color: ${retroWhite};
 
     & * {
-      border: 3px solid ${softBlack};
+      border: 3px solid ${retroBlack};
       border-left: 0px;
     }
 
     & :first-child {
-      border-right: 3px solid ${softBlack};
+      border-right: 3px solid ${retroBlack};
     }
   `,
 };

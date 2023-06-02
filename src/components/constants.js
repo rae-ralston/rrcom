@@ -6,7 +6,8 @@ export const mailTo = (subject = defaultSubject) =>
 export const computerNavHeight = 64;
 
 export const retroWhite = "#edeae2";
-export const softBlack = "#181a18";
+export const retroBlack = "#181a18";
+export const black = "#000";
 
-export const border = `1px solid ${retroWhite}`;
-export const radius = "2px";
+export const border = `4px solid ${black}`;
+export const radius = "4px";
