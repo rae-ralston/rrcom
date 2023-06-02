@@ -2,8 +2,6 @@ import { not } from "ramda";
 import { useState } from "react";
 import { Routes, Route } from "react-router-dom";
 import Contact from "./components/contact";
-import Footer from "./components/footer";
-import Navigation from "./components/nav";
 import Splash from "./views/splash";
 import Art from "./views/art";
 import Landing from "./views/landing";
@@ -19,16 +17,11 @@ const App = () => {
 
   return (
     <>
-      <Navigation
-        hideContact={toggleHideContact}
-        sketchesReady={sketchesReady}
-      />
       <Contact hide={hideContact} close={toggleHideContact} />
       <Routes>
         <Route path="/" element={<Landing />} />
         {sketchesReady && <Route path="/sketches" element={<Art />} />}
       </Routes>
-      <Footer />
     </>
   );
 };
