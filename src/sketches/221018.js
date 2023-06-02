@@ -36,7 +36,7 @@ const Three = ({ id, height, width }) => {
     };
 
     animate();
-  }, [height, width]);
+  }, [height, width, id]);
 
   return <canvas id={id} />;
 };
