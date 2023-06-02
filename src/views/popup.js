@@ -15,7 +15,7 @@ const closeSVG = (
   </svg>
 );
 
-const Popup = ({ offsetX, offsetY, width, height, bodyText }) => {
+const Popup = ({ offsetX, offsetY, width, height, children }) => {
   const { initializeDrag, elemRef } = useDraggable(offsetX, offsetY);
 
   return (
@@ -27,7 +27,7 @@ const Popup = ({ offsetX, offsetY, width, height, bodyText }) => {
       <div css={styles.header}>
         <button alt="close">{closeSVG}</button>
       </div>
-      <div css={styles.body}>{bodyText}</div>
+      <div css={styles.body}>{children}</div>
     </div>
   );
 };

@@ -20,7 +20,6 @@ const styles = {
     border-radius: ${radius};
     box-shadow: 10px 10px;
     width: ${width}px;
-    height: ${height}px;
   `,
   header: css`
     background-color: ${retroWhite};
