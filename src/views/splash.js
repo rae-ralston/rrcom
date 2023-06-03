@@ -7,7 +7,7 @@ const Splash = () => (
     <div>
       <h1>Rae Ralston</h1>
       <h2>Creative Engineer</h2>
-      <a href={mailTo}>raeralston@pm.me</a>
+      <a href={mailTo()}>raeralston@pm.me</a>
     </div>
   </div>
 );

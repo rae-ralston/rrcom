@@ -31,7 +31,7 @@ const styles = {
       border-radius: ${radius};
     }
 
-    & :first-child {
+    & :first-of-type {
       border-right: ${border};
     }
   `,
