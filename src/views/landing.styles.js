@@ -40,6 +40,12 @@ const styles = {
   body: css`
     template-area: main;
   `,
+  navToggle: css`
+    position: absolute;
+    right: 0;
+    top: 100px;
+    color: white;
+  `,
 };
 
 export default styles;

@@ -4,7 +4,10 @@ TODO
 
 - [ ] aws ci badge
 - [ ] other badges?
-- [ ] make this readme cool.
+
+## Sources
+
+- Icons from [PIXELARTICONS](https://pixelarticons.com/#line)
 
 ## Running the App
 

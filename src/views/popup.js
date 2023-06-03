@@ -15,17 +15,21 @@ const closeSVG = (
   </svg>
 );
 
-const Popup = ({ offsetX, offsetY, width, height, children }) => {
+const Popup = ({ offsetX, offsetY, close, children, hide = false }) => {
   const { initializeDrag, elemRef } = useDraggable(offsetX, offsetY);
+
+  if (hide) return null;
 
   return (
     <div
-      css={styles.window(offsetX, offsetX, width, height)}
+      css={styles.window(offsetX, offsetX)}
       onMouseDown={initializeDrag}
       ref={elemRef}
     >
       <div css={styles.header}>
-        <button alt="close">{closeSVG}</button>
+        <button onClick={close} alt="close">
+          {closeSVG}
+        </button>
       </div>
       <div css={styles.body}>{children}</div>
     </div>

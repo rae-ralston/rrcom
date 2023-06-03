@@ -2,7 +2,7 @@ import { css } from "@emotion/react";
 import { border, radius, retroWhite, black } from "../components/constants";
 
 const styles = {
-  window: (x, y, width = 400, height = 300) => css`
+  window: (x, y) => css`
     font-family: "SilkscreenRegular";
     background-color: ${retroWhite};
     padding: 8px;
@@ -19,7 +19,7 @@ const styles = {
     border: ${border};
     border-radius: ${radius};
     box-shadow: 10px 10px;
-    width: ${width}px;
+    max-width: 900px;
   `,
   header: css`
     background-color: ${retroWhite};
