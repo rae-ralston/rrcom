@@ -1,13 +1,9 @@
 # Rae Ralston Portfolio
 
-TODO
-
-- [ ] aws ci badge
-- [ ] other badges?
-
 ## Sources
 
 - Icons from [PIXELARTICONS](https://pixelarticons.com/#line)
+- inspiration on [dribbble](https://dribbble.com/raeralston/collections/6601826-rrcom) & pinterest
 
 ## Running the App
 
