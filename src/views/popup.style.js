@@ -1,8 +1,10 @@
 import { css } from "@emotion/react";
 import { border, radius, retroWhite, black } from "../components/constants";
 
+const getZIndex = (index) => index * -100 + 1000;
+
 const styles = {
-  window: (x, y) => css`
+  window: (x, y, index) => css`
     font-family: "SilkscreenRegular";
     background-color: ${retroWhite};
     padding: 8px;
@@ -20,6 +22,7 @@ const styles = {
     border-radius: ${radius};
     box-shadow: 10px 10px;
     max-width: 900px;
+    z-index: ${getZIndex(index)};
   `,
   header: css`
     background-color: ${retroWhite};

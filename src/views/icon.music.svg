@@ -1,14 +1,14 @@
 <svg 
   class="w-6 md:w-12 h-6 md:h-12" 
-  width="48" 
-  height="48" 
+  width="24" 
+  height="24" 
   viewBox="0 0 24 24" 
   fill="none" 
   xmlns="http://www.w3.org/2000/svg">
   <path 
     fill-rule="evenodd" 
     clip-rule="evenodd" 
-    d="M19 5H3V7H19V13H13V11H15V9H13V11H11V13H9V15H11V17H13V19H15V17H13V15H19V13H21V7H19V5ZM7 13H3V15H7V13ZM3 9H9V11H3V9Z" 
-    fill="#000">
+    d="M4 4H8V6H4V14H8V16H2V15V14V6V4H4ZM10.0002 4H12H12.0002H20V6H12.0002V18H20V20L12.0002 20H10.0002V4ZM22.0002 4H20.0002V20H22.0002V4ZM15 8H17V10H15V8ZM18 12H14V16H18V12ZM8.00024 18H4.00024V20H8.00024V18Z" 
+    fill="currentColor">
   </path>
 </svg>

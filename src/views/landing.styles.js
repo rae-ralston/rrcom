@@ -1,5 +1,10 @@
 import { css } from "@emotion/react";
-import { retroWhite, retroBlack, border } from "../components/constants";
+import {
+  retroWhite,
+  retroBlack,
+  border,
+  radius,
+} from "../components/constants";
 
 const styles = {
   layout: css`
@@ -15,6 +20,7 @@ const styles = {
     background-color: ${retroWhite};
     display: grid;
     grid-area: header;
+    grid-template
     grid-template-areas: "name . time date";
     grid-template-columns: 200px 1fr 150px 250px;
 
@@ -22,6 +28,7 @@ const styles = {
       border: ${border};
       border-left: 0px;
       padding: 10px;
+      border-radius: ${radius};
     }
 
     & :first-child {
