@@ -1,5 +1,5 @@
-import sketch220825 from "../sketches/220825";
-import three221018 from "../sketches/221018";
+import sketch220825 from "./220825";
+import three221018 from "./221018";
 
 export const types = {
   p5js: "P5_JS",

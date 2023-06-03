@@ -1,4 +1,4 @@
-import elevatorMusic from "./visualizer.elevator-music-loop.mp3";
+import elevatorMusic from "../assets/visualizer.elevator-music-loop.mp3";
 
 const Visualizer = () => {
   return (

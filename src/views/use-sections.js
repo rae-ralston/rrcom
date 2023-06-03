@@ -1,7 +1,7 @@
 import { useState } from "react";
-import musicIcon from "./icon.music.svg";
-import resumeIcon from "./icon.resume.svg";
-import contactIcon from "./icon.contact.svg";
+import musicIcon from "../assets/icon.music.svg";
+import resumeIcon from "../assets/icon.resume.svg";
+import contactIcon from "../assets/icon.contact.svg";
 
 const Types = {
   RESUME: "RESUME",

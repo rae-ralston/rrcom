@@ -1,6 +1,6 @@
 /** @jsxImportSource @emotion/react */
 import useDraggable from "../components/use-draggable";
-import styles from "./popup.style";
+import styles from "./popup.styles";
 
 const closeSVG = (
   <svg

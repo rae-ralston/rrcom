@@ -1,4 +1,4 @@
-import { complement, isNil } from "ramda";
+import { complement, isNil, path } from "ramda";
 import { ReactP5Wrapper } from "react-p5-wrapper";
 import create from "./create-p5-sketch.js";
 import useDimensions from "./use-dims";
@@ -26,7 +26,7 @@ const Card = (props) => {
     : dims.height || MIN_HEIGHT;
 
   const display =
-    type === types.p5js ? (
+    type === path("p5js", types) ? (
       <ReactP5Wrapper sketch={create({ height, width, toDraw })} />
     ) : (
       <Canvas id={`three-${id}`} width={width} height={height} />
