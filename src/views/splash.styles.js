@@ -1,4 +1,5 @@
 import { css } from "@emotion/react";
+import { magenta } from "../components/constants";
 
 const styles = {
   container: css`
@@ -16,6 +17,14 @@ const styles = {
 
     h2 {
       margin-top: 0;
+    }
+
+    a {
+      color: ${magenta};
+
+      &:hover {
+        text-decoration: underline;
+      }
     }
   `,
 };

@@ -1,5 +1,5 @@
 /** @jsxImportSource @emotion/react */
-
+import { mailTo } from "../components/constants";
 import styles from "./splash.styles";
 
 const Splash = () => (
@@ -7,7 +7,7 @@ const Splash = () => (
     <div>
       <h1>Rae Ralston</h1>
       <h2>Creative Engineer</h2>
-      <p>portfolio under construction</p>
+      <a href={mailTo}>raeralston@pm.me</a>
     </div>
   </div>
 );
