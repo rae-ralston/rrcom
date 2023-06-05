@@ -5,14 +5,15 @@ const styles = {
   container: css`
     width: 100vw;
     height: 100vh;
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-areas: "name" "title" "contact";
+    grid-template-rows: 1fr min-content 1fr;
     align-items: center;
-    justify-content: space-around;
 
     h1 {
       font-size: 80px;
       margin: 0;
+      align-self: end;
     }
 
     h2 {
@@ -21,6 +22,7 @@ const styles = {
 
     a {
       color: ${magenta};
+      align-self: start;
 
       &:hover {
         text-decoration: underline;
